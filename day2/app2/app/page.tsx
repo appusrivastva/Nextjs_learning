@@ -13,10 +13,10 @@ export default function Home() {
 
  
   }
-  function handleChange(e){
-    console.log(e.target.value)
+  // function handleChange(e){
+  //   console.log(e.target.value)
 
-  }
+  // }
  
   return (
     <main className={styles.main}>
@@ -29,7 +29,7 @@ export default function Home() {
 
 
 {/* <button onClick={example}> please click</button> */}
-<input type="text" placeholder="pls write something" onChange={handleChange}/>
+{/* <input type="text" placeholder="pls write something" onChange={handleChange}/> */}
 
 
 
